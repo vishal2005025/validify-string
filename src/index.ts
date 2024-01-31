@@ -19,10 +19,7 @@ import {
   isAlphanumeric,
   isHash,
   isHexadecimal,
-  isASCII,
-  isHexColor,
-  isJSON,
-  isJWT
+  isASCII
 } from "./utils/utilityFunctions";
 
 
@@ -50,14 +47,10 @@ const validator = {
   isAlphanumeric,
   isHash,
   isHexadecimal,
-  isASCII,
-  isHexColor,
-  isJSON,
-  isJWT,
   isBase32,
   isBase64,
   isEthereumAddress
-
+  isASCII
 };
 
 export default validator;
